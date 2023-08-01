@@ -26,5 +26,4 @@ export class TimeregisterController{
     async updateTimeregister(@Param('id') id: number, @Body() timeregisterData: Timeregister):Promise<Timeregister >{
         return this.timeregisterService.updateTimeregister(id,timeregisterData)
     }
-
 }

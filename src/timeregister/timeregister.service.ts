@@ -17,14 +17,12 @@ export class TimeregisterService {
             data,
         })
     }
-
     async updateTimeregister(id:number, data:Timeregister): Promise<Timeregister>{
         return this.prisma.timeregister.update({
             where: {id:Number(id)},
             data:{period: data.period, date:data.date, description:data.description, userId:data.userId}
         })
     }
-
     async deleteTimeregister(id:number): Promise<Timeregister>{
         return this.prisma.timeregister.delete({
             where: {id:Number(id)}
