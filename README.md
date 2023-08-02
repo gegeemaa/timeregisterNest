@@ -2,10 +2,12 @@
 
 ### Libraries
 
-A following stack of libraries are used to build the application:
+A following stack of technologies are used to build the application:
 
 - TypeScript
 - Prisma ORM
+- MySQL database in Docker
+  
 ## Installation
 
 ```bash
