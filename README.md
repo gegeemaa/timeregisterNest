@@ -4,6 +4,7 @@
 
 A following stack of technologies are used to build the application:
 
+- NestJS
 - TypeScript
 - Prisma ORM
 - MySQL database in Docker
